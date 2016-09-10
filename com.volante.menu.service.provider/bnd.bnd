@@ -1,0 +1,12 @@
+-buildpath: \
+	org.amdatu.web.rest.jaxrs,\
+	org.amdatu.web.rest.doc,\
+	osgi.core;version=6.0,\
+	org.apache.felix.http.servlet-api;version=1.1,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	org.apache.felix.dependencymanager;version='[4,5)',\
+	org.apache.felix.dependencymanager.annotation,\
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation.jar;version=file
+Private-Package: com.volante.menu.service.provider
